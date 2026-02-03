@@ -20,7 +20,7 @@ const App = () => (
       <AppProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/aura-chat">
           <Routes>
             <Route path="/" element={<Layout><Landing /></Layout>} />
             <Route path="/dashboard" element={<Layout><Dashboard /></Layout>} />
